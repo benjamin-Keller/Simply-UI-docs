@@ -7,7 +7,7 @@ export default function Input_Fields() {
   return (
     <div className="container mt-3">
       <Head>
-        <title>Breakpoint Simple | Simply-UI</title>
+        <title>Input Simple | Simply-UI</title>
         <meta name="description" content="Get a Simply simply CSS library" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
