@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 
-export default function sidebar({ children }) {
+export default function sidebar() {
     const router = useRouter();
 
     return (
