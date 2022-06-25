@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Navbar({ children }) {
+export default function Navbar() {
   return (
     <>
     <Head >
