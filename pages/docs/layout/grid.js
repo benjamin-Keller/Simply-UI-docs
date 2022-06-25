@@ -3,7 +3,7 @@ import Sidebar from '../../components/sidebar'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
-export default function Grid({ children }) {
+export default function Grid() {
   return (
     <div className="container mt-3">
       <Head>
