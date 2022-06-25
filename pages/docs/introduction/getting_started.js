@@ -24,6 +24,8 @@ const cloneText = `<head>
 </head>
 `;
 
+const npmText = `import 'simply-ui/dist/css/simply.min.css'`;
+
 export default function Getting_Started() {
   return (
     <div className="container mt-3">
@@ -44,20 +46,19 @@ export default function Getting_Started() {
                 </p>
                 <strong>JsDeliver:</strong>
                 <ol>
-                    <li>Full (87.3 KB): <a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css"
-                            className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css</a>
+                    <li>Full <span className="badge-secondary text-white">87.3 KB</span><br />
+                    <a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css" className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css</a>
                     </li>
-                    <li>Min (70.1 KB): <a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css"
-                            className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css</a>
+                    <li>Min <span className="badge-secondary text-white">70.1 KB</span><br /><a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css" className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css</a>
                     </li>
                 </ol>
 
                 <strong>UNPKG:</strong>
                 <ol>
-                    <li>Full (87.3 KB): <a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css"
+                    <li>Full <span className="badge-secondary text-white">87.3 KB</span><br /><a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css"
                             className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.css</a>
                     </li>
-                    <li>Min (70.1 KB): <a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css"
+                    <li>Min <span className="badge-secondary text-white">70.1 KB</span><br /><a href="http://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css"
                             className="text-secondary">https://cdn.jsdelivr.net/npm/simply-ui@1.1.6/dist/css/simply.min.css</a>
                     </li>
                 </ol>
@@ -68,18 +69,28 @@ export default function Getting_Started() {
 					</SyntaxHighlighter>
 				</div>
 
-
-
-                <h3 className="mt-2">GitHub</h3>
+                <h3 className="mt-2">NPM</h3>
                 <ol>
                     <li>
-                        <p>Download or Clone the <a href="https://github.com/benjamin-Keller/Simply-UI"
-                                className="text-secondary">GitHub Repo</a> and
-                            move the <a href="https://github.com/benjamin-Keller/Simply-UI/tree/master/simply-ui"
-                                className="text-secondary">Simply-UI</a> and <a
-                                href="https://github.com/benjamin-Keller/Simply-UI/blob/master/gulpfile.js"
-                                className="text-secondary">gulpfile.js</a> folder to your project<br />(CDN and NPM coming
-                            soon)
+                        <p>In your project directory. Open Terminal and run <code className="text-primary font-consolas">npm i simply-ui</code>.</p>
+                    </li>
+                    <li>
+                        Add a link to <code className="text-primary font-consolas">simply-ui/dist/css/simply.css</code> OR <code className="text-primary font-consolas">simply-ui/dist/css/simply.min.css</code> in your project.
+                    </li>
+                </ol>
+                <SyntaxHighlighter language="javascript" style={dracula}>
+                    {npmText}
+                </SyntaxHighlighter>
+                <sup>In the case of NextJS/REACT, the above is in _app.js</sup>
+
+                <h3 className="mt-2">Clone</h3>
+                <ol>
+                    <li>
+                        <p>Download or Clone the <a href="https://github.com/benjamin-Keller/Simply-UI"className="text-secondary">GitHub Repo</a>
+                            and move the <a href="https://github.com/benjamin-Keller/Simply-UI/tree/master/simply-ui" className="text-secondary">Simply-UI</a> and
+                            <a href="https://github.com/benjamin-Keller/Simply-UI/blob/master/gulpfile.js" className="text-secondary">gulpfile.js</a>
+                            folder to your project
+                                <br />(CDN and NPM comingsoon)
                         </p>
                     </li>
                     <li>
