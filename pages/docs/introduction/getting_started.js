@@ -40,7 +40,7 @@ export default function Getting_Started() {
                 <h2>Get Setup</h2>
                 <h3>CDN</h3>
                 <p><code className="text-primary font-consolas">&lt;link&gt;</code> the CDN,
-                    in your project's <code className="text-primary font-consolas">&lt;head&gt;</code>
+                    in your project&apos;s <code className="text-primary font-consolas">&lt;head&gt;</code>
                 </p>
                 <strong>JsDeliver:</strong>
                 <ol>
@@ -93,7 +93,7 @@ export default function Getting_Started() {
                     <li>
                         <p><code className="text-primary font-consolas">&lt;link&gt;</code> the built css, by default <code
                                 className="text-primary font-consolas">dist/css/simply.html</code>,
-                            in your project's <code className="text-primary font-consolas">&lt;head&gt;</code>
+                            in your project&apos;s <code className="text-primary font-consolas">&lt;head&gt;</code>
                         </p>
 
                     </li>
