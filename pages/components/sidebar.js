@@ -23,6 +23,12 @@ export default function SideBar() {
                         <a className={router.pathname == "/docs/layout/grid" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Grid <span className="badge-secondary text-white">WIP</span></a>
                     </Link>
                 </div>
+                <div className="display-f flex-direction-column pb-2">
+                    <h4>Content</h4>
+                    <Link href="/docs/content/typography" passHref>
+                        <a className={router.pathname == "/docs/content/typography" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Typography <span className="badge-secondary text-white">New</span></a>
+                    </Link>
+                </div>
                 <div className="display-f flex-direction-column">
                     <h4>Forms</h4>
                     <Link href="/docs/forms/input_fields" passHref>
