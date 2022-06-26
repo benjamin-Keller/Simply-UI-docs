@@ -80,10 +80,10 @@ export default function Colors() {
                     There are a few built-in color variables, namely the following:
                 </p>
                 <div className="row flex-gap-2">
-                    <div className="bg-primary text-white pl-1 col-6-sm col-3-md col-2-lg">Primary</div>
-                    <div className="bg-secondary pl-1 col-6-sm col-3-md col-2-lg">Secondary</div>
-                    <div className="bg-error pl-1 col-6-sm col-3-md col-2-lg">Error</div>
-                    <div className="bg-info pl-1 col-6-sm col-3-md col-2-lg">Info</div>
+                    <div className="bg-primary text-white pl-1 col-6-xs col-3-md col-2-lg">Primary</div>
+                    <div className="bg-secondary pl-1 col-6-xs col-3-md col-2-lg">Secondary</div>
+                    <div className="bg-error pl-1 col-6-xs col-3-md col-2-lg">Error</div>
+                    <div className="bg-info pl-1 col-6-xs col-3-md col-2-lg">Info</div>
                 </div>
                 <SyntaxHighlighter language="html" style={dracula}>
                     {variable_bg_colors}
@@ -95,16 +95,16 @@ export default function Colors() {
                     The colors that come built-in are:    
                 </p>
                 <div className="row flex-gap-2">
-                    <div className="bg-blue text-white pl-1 col-6-sm col-3-md col-2-lg">Blue</div>
-                    <div className="bg-red pl-1 col-6-sm col-3-md col-2-lg">Red</div>
-                    <div className="bg-yellow pl-1 col-6-sm col-3-md col-2-lg">Yellow</div>
-                    <div className="bg-green pl-1 col-6-sm col-3-md col-2-lg">Green</div>
-                    <div className="bg-orange pl-1 col-6-sm col-3-md col-2-lg">Orange</div>
-                    <div className="bg-green pl-1 col-6-sm col-3-md col-2-lg">Green</div>
-                    <div className="bg-purple pl-1 col-6-sm col-3-md col-2-lg">Purple</div>
-                    <div className="bg-gray pl-1 col-6-sm col-3-md col-2-lg">Gray</div>
-                    <div className="bg-black text-white pl-1 col-6-sm col-3-md col-2-lg">Black</div>
-                    <div className="bg-white pl-1 col-6-sm col-3-md col-2-lg">White</div>
+                    <div className="bg-blue text-white pl-1 col-6-xs col-3-md col-2-lg">Blue</div>
+                    <div className="bg-red pl-1 col-6-xs col-3-md col-2-lg">Red</div>
+                    <div className="bg-yellow pl-1 col-6-xs col-3-md col-2-lg">Yellow</div>
+                    <div className="bg-green pl-1 col-6-xs col-3-md col-2-lg">Green</div>
+                    <div className="bg-orange pl-1 col-6-xs col-3-md col-2-lg">Orange</div>
+                    <div className="bg-green pl-1 col-6-xs col-3-md col-2-lg">Green</div>
+                    <div className="bg-purple pl-1 col-6-xs col-3-md col-2-lg">Purple</div>
+                    <div className="bg-gray pl-1 col-6-xs col-3-md col-2-lg">Gray</div>
+                    <div className="bg-black text-white pl-1 col-6-xs col-3-md col-2-lg">Black</div>
+                    <div className="bg-white pl-1 col-6-xs col-3-md col-2-lg">White</div>
                 </div>
                 <SyntaxHighlighter language="html" style={dracula}>
                     {bg_colors}
