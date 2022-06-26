@@ -9,17 +9,17 @@ const font_size = `<div className="font-sm">this is font-sm</div>
 <div className="font-lg">this is font-lg</div>
 <div className="font-xl">this is font-xl</div>
 <div className="font-xxl">this is font-xxl</div>`;
-const font_stack = `<div className="font-helvetica font-lg">Helvetica</div>
-<div className="font-lucida-grande font-lg">Lucida-Grande</div>
-<div className="font-verdana font-lg">Verdana</div>
-<div className="font-system font-lg">System</div>
-<div className="font-garamond font-lg">Garamond</div>
-<div className="font-georgia font-lg">Georgia</div>
-<div className="font-hoefler-text font-lg">Hoefler-Text</div>
-<div className="font-consolas font-lg">Consolas</div>
-<div className="font-courier-new font-lg">Courier-New</div>
-<div className="font-monaco font-lg">Monaco</div>
-<div className="font-tahoma font-lg">Tahoma</div>`;
+const font_stack = `<div className="font-helvetica">Helvetica</div>
+<div className="font-lucida-grande">Lucida-Grande</div>
+<div className="font-verdana">Verdana</div>
+<div className="font-system">System</div>
+<div className="font-garamond">Garamond</div>
+<div className="font-georgia">Georgia</div>
+<div className="font-hoefler-text">Hoefler-Text</div>
+<div className="font-consolas">Consolas</div>
+<div className="font-courier-new">Courier-New</div>
+<div className="font-monaco">Monaco</div>
+<div className="font-tahoma">Tahoma</div>`;
 
 export default function typography() {
   return (
