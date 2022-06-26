@@ -64,7 +64,7 @@ export default function typography() {
 
                 <h2 className="mt-2">Font Stacks</h2>
                 <p>
-                    Simply-UI has multiple built in <code className="text-primary font-consolas">font-stacks</code> that you can set as a single element's class. <br />
+                    Simply-UI has multiple built in <code className="text-primary font-consolas">font-stacks</code> that you can set as a single element&apos;s class. <br />
                     You can request a font-stack through our <Link href="https://github.com/benjamin-Keller/Simply-UI"><span className="text-secondary" Style="cursor: pointer">GitHub</span></Link>! <br />
                     The current <code className="text-primary font-consolas">font-stacks</code> built into Simply-UI are:
                 </p>
