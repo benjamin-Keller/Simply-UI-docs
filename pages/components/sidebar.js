@@ -11,7 +11,7 @@ export default function SideBar() {
                 <div className="display-f flex-direction-column pb-2">
                     <h4>Introduction</h4>
                     <Link href="/docs/introduction/getting_started" passHref>
-                        <a className={router.pathname == "/docs/introduction/getting_started" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Getting Started <span className="badge-secondary text-white">New</span></a>
+                        <a className={router.pathname == "/docs/introduction/getting_started" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Getting Started</a>
                     </Link>
                 </div>
                 <div className="display-f flex-direction-column pb-2">
@@ -25,8 +25,11 @@ export default function SideBar() {
                 </div>
                 <div className="display-f flex-direction-column pb-2">
                     <h4>Content</h4>
+                    <Link href="/docs/content/colors" passHref>
+                        <a className={router.pathname == "/docs/content/colors" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Colors</a>
+                    </Link>
                     <Link href="/docs/content/typography" passHref>
-                        <a className={router.pathname == "/docs/content/typography" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Typography <span className="badge-secondary text-white">New</span></a>
+                        <a className={router.pathname == "/docs/content/typography" ? "text-secondary text-hover-secondary" : "text-hover-secondary"}>Typography</a>
                     </Link>
                 </div>
                 <div className="display-f flex-direction-column">
