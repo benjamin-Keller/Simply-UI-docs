@@ -36,6 +36,27 @@ const text_colors = `<div className="text-blue">Blue</div>
 <div className="text-black">Black</div>
 <div className="text-white">White</div>`;
 
+const sass_colors = `$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "black": black,
+    "white": white
+  )`;
+
 export default function Colors() {
   return (
     <div className="container mt-3">
@@ -65,7 +86,7 @@ export default function Colors() {
                     <div className="bg-info pl-1 col-6-sm col-3-md col-2-lg">Info</div>
                 </div>
                 <SyntaxHighlighter language="html" style={dracula}>
-                    {variable_text_colors}
+                    {variable_bg_colors}
                 </SyntaxHighlighter>
 
                 <h2 className="mt-2">Built-in colors</h2>
@@ -107,6 +128,13 @@ ${text_colors}` }
 ${variable_bg_colors}
 <!-- Built-in Colors -->
 ${bg_colors}` }
+                </SyntaxHighlighter>
+
+                <h2 className="mt-2">Sass variables</h2>
+                <p>Below is the <code className="text-primary font-consolas">$colors</code> object. This can be edited to add or replace current colors. <br />
+                You can request a color to be added through our <Link href="https://github.com/benjamin-Keller/Simply-UI"><span className="text-secondary" Style="cursor: pointer">GitHub</span></Link>!</p>
+                <SyntaxHighlighter language="sass" style={dracula}>
+                    {sass_colors}
                 </SyntaxHighlighter>
             </div>
         </main>
