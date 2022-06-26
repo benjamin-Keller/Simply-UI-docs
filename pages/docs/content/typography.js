@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Sidebar from '../../components/sidebar'
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
 const font_size = `<div className="font-sm">this is font-sm</div>
@@ -21,7 +21,7 @@ const font_stack = `<div className="font-helvetica font-lg">Helvetica</div>
 <div className="font-monaco font-lg">Monaco</div>
 <div className="font-tahoma font-lg">Tahoma</div>`;
 
-export default function typography() {
+export default function Typography() {
   return (
     <div className="container mt-3">
       <Head>
