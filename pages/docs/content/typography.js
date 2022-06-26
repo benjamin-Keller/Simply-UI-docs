@@ -69,17 +69,17 @@ export default function Typography() {
                     The current <code className="text-primary font-consolas">font-stacks</code> built into Simply-UI are:
                 </p>
                 <div className="row mb-1 mt-1">                
-                    <div className="font-helvetica font-lg col-6-sm col-4-md col-3-lg">Helvetica</div>
-                    <div className="font-lucida-grande font-lg col-6-sm col-4-md col-3-lg">Lucida-Grande</div>
-                    <div className="font-verdana font-lg col-6-sm col-4-md col-3-lg">Verdana</div>
-                    <div className="font-system font-lg col-6-sm col-4-md col-3-lg">System</div>
-                    <div className="font-garamond font-lg col-6-sm col-4-md col-3-lg">Garamond</div>
-                    <div className="font-georgia font-lg col-6-sm col-4-md col-3-lg">Georgia</div>
+                    <div className="font-helvetica font-lg col-6-xs col-4-md col-3-lg">Helvetica</div>
+                    <div className="font-lucida-grande font-lg col-6-xs col-4-md col-3-lg">Lucida-Grande</div>
+                    <div className="font-verdana font-lg col-6-xs col-4-md col-3-lg">Verdana</div>
+                    <div className="font-system font-lg col-6-xs col-4-md col-3-lg">System</div>
+                    <div className="font-garamond font-lg col-6-xs col-4-md col-3-lg">Garamond</div>
+                    <div className="font-georgia font-lg col-6-xs col-4-md col-3-lg">Georgia</div>
                     <div className="font-hoefler-text font-lg col-6-sm col-4-md col-3-lg">Hoefler-Text</div>
-                    <div className="font-consolas font-lg col-6-sm col-4-md col-3-lg">Consolas</div>
-                    <div className="font-courier-new font-lg col-6-sm col-4-md col-3-lg">Courier-New</div>
-                    <div className="font-monaco font-lg col-6-sm col-4-md col-3-lg">Monaco</div>
-                    <div className="font-tahoma font-lg col-6-sm col-4-md col-3-lg">Tahoma</div>
+                    <div className="font-consolas font-lg col-6-xs col-4-md col-3-lg">Consolas</div>
+                    <div className="font-courier-new font-lg col-4-md col-3-lg">Courier-New</div>
+                    <div className="font-monaco font-lg col-6-xs col-4-md col-3-lg">Monaco</div>
+                    <div className="font-tahoma font-lg col-6-xs col-4-md col-3-lg">Tahoma</div>
                 </div>
                 <SyntaxHighlighter language="html" style={dracula}>
                     {font_stack}
